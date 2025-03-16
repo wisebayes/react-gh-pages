@@ -576,10 +576,10 @@ function App() {
   ];
 
   const currentBioData = {
-    name: 'Jamie Smith',
-    title: 'Senior Software Engineer',
+    name: 'Chandhru Karthick',
+    title: 'Columbia University',
     image: logo,
-    bio: 'Passionate software engineer with 5+ years of experience building web applications and distributed systems. Focused on creating clean, maintainable code and solving complex technical challenges. Enthusiastic about open source and mentoring junior developers.',
+    bio: 'Passionate software engineer with 1-2 years of experience building web applications and distributed systems. Focused on creating clean, maintainable code and solving complex technical challenges. Enthusiastic about open source and mentoring junior developers.',
     skills: [
       {
         category: 'Languages',
@@ -599,9 +599,9 @@ function App() {
       }
     ],
     contact: {
-      email: 'jamie.smith@example.com',
-      github: 'https://github.com/jamiesmith',
-      linkedin: 'https://www.linkedin.com/in/jamiesmith'
+      email: '[firstname].k@columbia.edu',
+      github: 'https://github.com/wisebayes',
+      linkedin: 'https://www.linkedin.com/in/chandhru-k'
     }
   };
 
