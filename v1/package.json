@@ -1,7 +1,7 @@
 {
   "name": "v1",
   "version": "0.1.0",
-  "homepage":"https://wisebayes.github.io/",
+  "homepage":"https://wisebayes.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b main -r https://github.com/wisebayes/wisebayes.github.io.git"
   },
   "eslintConfig": {
     "extends": [
