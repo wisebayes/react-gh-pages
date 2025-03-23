@@ -515,24 +515,27 @@ function App() {
   const timelineData = [
     {
       id: 1,
-      year: '2016',
+      year: '2019',
       title: 'Computer Science Degree',
-      description: 'Started my journey at University',
-      fullDescription: 'Began my Bachelor of Science in Computer Science at XYZ University. Focused on core programming concepts, data structures, and algorithms. Participated in coding competitions and joined the Computer Science club.',
+      description: 'Started my journey at Vellore Institute of Technology...[More]',
+      fullDescription: 'Began my Bachelor of Science in Computer Science & Engineering at <a href="https://chennai.vit.ac.in/">Vellore Institute of Technology</a>. Focused on core engineering math, programming concepts, data structures, and algorithms, specialized in Learning theory. Tutored statistics, advanced calculus and discrete math.',
       position: 15,
       sectionId: 'section-1',
       image: logo,
-      skills: ['Java', 'Python', 'Data Structures', 'Algorithms'],
+      skills: ['Python', 'Data Structures', 'Algorithms', 'Machine Learning Theory', 'Reinforcement Learning', 'Image Processing', 'Natural Language Processing'],
       projects: [
-        { name: 'Maze Solver', description: 'Implemented A* and BFS algorithms to solve mazes' },
-        { name: 'Simple Compiler', description: 'Built a basic compiler for a subset of C' }
+        { name: 'BraillePad', description: 'Microprocessor project to transcribe Image->Text->Braille on Arduino UNO' },
+        { name: 'CoVisals', description: 'Not your typical covid dashboard. Embedded with graphical disease spread simulations and region wise sentiment scoring' },
+        { name: 'MRI-VRize', description: 'My capstone thesis on fine-grained patient specific MRI ROI visualization in VR teleoperative surgery'},
+        // { name: }
+
       ]
     },
     {
       id: 2,
-      year: '2018',
-      title: 'First Internship',
-      description: 'Software developer intern at TechCorp',
+      year: '2020',
+      title: 'Internships',
+      description: 'Internships of my undergraduate during 2020-2023...',
       fullDescription: 'Completed a summer internship at TechCorp working on their web application platform. Contributed to the frontend team and learned modern JavaScript frameworks. Implemented new features and fixed bugs in the production codebase.',
       position: 40,
       sectionId: 'section-2',
@@ -545,8 +548,8 @@ function App() {
     },
     {
       id: 3,
-      year: '2020',
-      title: 'Graduation',
+      year: '2023',
+      title: 'Graduation and First Job',
       description: 'Graduated with honors in CS',
       fullDescription: 'Graduated with a Bachelor of Science in Computer Science with honors. Senior thesis focused on applying machine learning techniques to natural language processing. Received the Outstanding CS Student award.',
       position: 60,
@@ -560,17 +563,16 @@ function App() {
     },
     {
       id: 4,
-      year: '2021',
-      title: 'First Developer Role',
-      description: 'Full-stack developer at StartupX',
+      year: '2024',
+      title: 'Master\'s at Columbia University',
+      description: 'My Columbia Journey...',
       fullDescription: 'Joined StartupX as a full-stack developer working on their SaaS platform. Responsible for implementing new features, improving the user experience, and ensuring code quality. Worked in an agile environment with two-week sprints.',
       position: 75,
       sectionId: 'section-4',
       image: logo,
-      skills: ['React', 'Node.js', 'MongoDB', 'Docker', 'AWS'],
+      skills: ['Causal Inference', 'Machine Learning', 'Quantum Computing', 'Algorithms', 'NLP Research'],
       projects: [
-        { name: 'Authentication System', description: 'Implemented OAuth and MFA for the platform' },
-        { name: 'API Gateway', description: 'Built a unified API gateway for microservices architecture' }
+        { name: 'Coming Soon...', description: 'Real soon...' }
       ]
     },
   ];
